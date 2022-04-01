@@ -3,6 +3,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Chart from "../../components/chart/Chart";
 import List from "../../components/table/Table";
+import IMG from "../../img/user.jpeg";
 
 const Single = () => {
   return (
@@ -15,13 +16,9 @@ const Single = () => {
             <div className="editButton">Edit</div>
             <h1 className="title">Information</h1>
             <div className="item">
-              <img
-                src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-                alt=""
-                className="itemImg"
-              />
+              <img src={IMG} alt="" className="itemImg" />
               <div className="details">
-                <h1 className="itemTitle">Jane Chelangat</h1>
+                <h1 className="itemTitle">J Chelangat</h1>
                 <div className="detailItem">
                   <span className="itemKey">Email:</span>
                   <span className="itemValue">chelangat@gmail.com</span>
