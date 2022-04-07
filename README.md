@@ -1,6 +1,6 @@
 # Testing Logins
 
-Email: `test@gmsil.com`
+Email: `test@gmail.com`
 Password: `1234567890`
 
 # Getting Started with Create React App
